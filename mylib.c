@@ -5,3 +5,7 @@ void swap(int* a, int* b){
 	*a = *b;
 	*b = tmp;
 }
+
+int subtract(int a, int b){
+	return a-b;
+}
