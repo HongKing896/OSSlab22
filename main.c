@@ -12,5 +12,6 @@ int main(void){
 	swap(&a,&b);
 	printf("(subtracted) a - b = %d - %d = %d\n", a, b, subtract(a,b));
 
+	printf("(added) a + b = %d + %d = %d\n",a,b,add(a, b));
 	return 0;
 }

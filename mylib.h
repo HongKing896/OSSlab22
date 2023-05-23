@@ -3,6 +3,8 @@
 
 void swap(int*, int*);
 
+int add(int, int);
+
 int subtract(int a, int b);
 
 #endif
