@@ -8,6 +8,6 @@ main.o: main.c
 	gcc -c -o main.o main.c
 
 clean: 
-	rd C:\User\butyk\git\OSSlab02\a.out, C:\User\butyk\git\OSSlab02\main.o, C:\User\butyk\git\OSSlab02\mylib.o 
+	rm -f main.o mylib.o a.out
 run: 
 	./a.out
